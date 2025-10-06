@@ -11,13 +11,13 @@ public class App {
         System.out.println("Elemento do topo: " + pilha.peek());
         
         
-        System.out.println("\nRemovendo todos os elementos:");
+        System.out.println("Removendo todos os elementos:");
         while (!pilha.isEmpty()) {
             System.out.println("Elemento removido: " + pilha.pop());
         }
         
         
-        System.out.println("\nA pilha está vazia? " + pilha.isEmpty());
+        System.out.println("A pilha está vazia? " + pilha.isEmpty());
     }
     
 }
